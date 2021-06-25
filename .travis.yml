@@ -1,9 +1,6 @@
-language: node_js
-node_js: 
-    - "8"
-install: 
-    - npm intsall
-script: 
-    - npm run clean
-    - npm run build
+sudo: required
+dist: bionic
+
+script:
+    - bash -xve ./test/travis_ros_install.bash
 
