@@ -1,9 +1,9 @@
 language: node_js
-node_js:
-	- "8"
-install:
-	- npm intsall
-script:
-	- npm run clean
-	- npm run build
+node_js: 
+    - "8"
+install: 
+    - npm intsall
+script: 
+    - npm run clean
+    - npm run build
 
